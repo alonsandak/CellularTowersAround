@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+         android:id="@+id/near_me"
+         android:orderInCategory="100"
+         android:title="@string/nearme" 
+         android:icon="@drawable/device_access_location_searching"
+         android:showAsAction="ifRoom">
+        
+    </item>
+    <item
+         android:id="@+id/about"
+         android:title="@string/about" 
+         android:icon="@drawable/ic_action_about"
+         android:showAsAction="ifRoom">
+        
+    </item>
+        <item
+         android:id="@+id/mailus"
+         android:title="@string/mailus" 
+         android:icon="@drawable/ic_action_email"
+         android:showAsAction="ifRoom">
+        
+    </item>
+    
+
+</menu>

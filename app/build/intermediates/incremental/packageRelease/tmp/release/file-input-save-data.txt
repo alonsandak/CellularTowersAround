@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Sat Mar 28 18:48:37 IDT 2020
+1.base=C\:\\Users\\dell\\Downloads\\CellularTowersAround\\app\\build\\intermediates\\transforms\\dexMerger\\release\\0
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=DEX
+0.path=cellulartower.html
+0.set=ASSET
+0.base=C\:\\Users\\dell\\Downloads\\CellularTowersAround\\app\\build\\intermediates\\assets\\release
+1.path=classes.dex

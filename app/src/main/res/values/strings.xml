@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello"></string>
+    <string name="app_name">אנטנות סלולריות מסביב</string>
+    <string name="nearme">המיקום שלי</string>
+    <string name="closest"> הכי קרוב </string>
+    <string name="about">ABOUT</string>
+    <string name="mailus">MailToUs</string>
+    <string name="about_title">אנטנות מסביב</string>
+    <string name="about_msg">לרובינו אין מושג היכן ממוקמות אנטנות בסביבתינו\n\n איתור מהיר מסביב למיקום המשתמש או עי הקלדת כתובת   \n\n מאפשר למצוא מוקדי שידור סלולריים בכל רחבי הארץ \n\n הצבע מעיד על סך החשיפה מהתקן העולמי  \n\n במדרג מצהוב שהוא בתקן ועד אדום שמהווה חריגה  </string>     
+    
+</resources>

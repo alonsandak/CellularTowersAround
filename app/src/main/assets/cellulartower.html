@@ -1,0 +1,273 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>Cellular Tower Around</title>
+
+<style>
+
+  html{ height:100%;}
+  body { font-family: Arial, sans-serif; padding: 0px; margin: 0px; height:100%; }
+  div#wrapper { height: 100%; width:100%; }
+  div#map_canvas { height: 100%; width:100%; }
+
+</style>
+
+<!-- This is a comment 
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAaHvf1CQ8r79zRe_6aXnhs75uf6LZjse0&callback=initMap">
+    </script>
+
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script><script type="text/javascript">
+ -->
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAaHvf1CQ8r79zRe_6aXnhs75uf6LZjse0"></script><script type="text/javascript">
+
+ 
+var longitude ;
+var latitude ;
+var map;
+var infowindow = new google.maps.InfoWindow();
+var  tableid  ='1CfqaLH6w9Gx8x7sxE74YIqYpEOi2etMJEU0CfVA';
+
+var circle;
+var geocoder;
+var layer;
+var is_Geo = true;
+var dis_in_meter = 0;
+var loc_query ;
+var my_zoom = 16 ;
+var my_distance = 500;
+  
+function initialize() {
+
+
+
+geocoder = new google.maps.Geocoder(); 
+
+  var myOptions = {
+    zoom: my_zoom,
+    streetViewControl: false,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  };
+
+  map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+  var useragent = navigator.userAgent;
+     longitude = 31.79809;
+     latitude = 32.06684;
+    
+    // longitude = Android.getLongitude;
+   //  latitude = Android.getLatitude;
+  //     Android.showToast("my location : " + longitude + latitude):
+    if (window.android)
+     {
+
+  	latitude  = window.android.getLatitude();
+     longitude = window.android.getLongitude();
+    }
+
+   showLocation(latitude,longitude);    // new added
+
+ //   if(navigator.geolocation){
+ //      // timeout at 60000 milliseconds (60 seconds)
+ //      var options = {timeout: 60000};
+ //      navigator.geolocation.getCurrentPosition(showLocation,
+ //                                               errorHandler,
+   //                                             options);
+ //   }else{
+  //     alert("המערכת לא מזהה את מיקומך , ניתן להזין כתובת לבחון מה קיים בסביבתה");
+ //      is_Geo = false;
+ //   }
+
+}// end of initialize
+
+function showLocation(lat,lon) {
+  //  latitude = position.coords.latitude;
+  //  longitude = position.coords.longitude;
+  
+
+    
+
+      var initialLocation = new google.maps.LatLng(lat,lon);
+      contentString = "אתה נמצא כאן ";
+
+
+     layer = new google.maps.FusionTablesLayer({
+          query: {
+            select: 'ktv',
+            from: tableid,
+            where: "ST_INTERSECTS('ktv', CIRCLE(LATLNG("+latitude +","+ longitude + "),500))"
+          },
+          map: map,
+          styleId: 1,
+          templateId: 1
+        });
+        
+
+       circle = new google.maps.Circle({
+       center: new google.maps.LatLng(latitude, longitude),
+       radius: my_distance,
+       clickable : false,
+       map: map,
+       fillOpacity: 0.2,
+       strokeOpacity: 0.5,
+       strokeColor : "#FFAA00",
+       strokeWeight: 3
+     });
+
+      map.setCenter(initialLocation);  
+      infowindow.setContent(contentString);
+      infowindow.setPosition(initialLocation);
+      infowindow.open(map)
+  
+
+}// end of showlocation
+
+function showLocationByAdress(lt,lg) {
+    latitude = lt;
+    longitude =lg;
+    
+ 
+     var initialLocation = new google.maps.LatLng(latitude,longitude);
+     changeLocation(latitude,longitude,my_distance);
+ 
+
+
+}// end of showLocationByAdress  
+
+function errorHandler(err) {
+  if(err.code == 1) {
+    alert("על מנת להשתמש בתוכנה ולאפשר שירותי מיקום אנא אשר שיתוף מיקום ");
+  }else if( err.code == 2) {
+    alert("שירותי המיקום אינם זמינים אנא בדוק הגדרות המכשיר והדפדפן");
+  }
+}//end of errorHandler
+
+
+function changeLocation(lt , lg , meters ) 
+{
+    latitude      = lt;
+    longitude     = lg;
+    dis_in_meters = meters;
+ 
+    loc_query = "ST_INTERSECTS('ktv', CIRCLE(LATLNG(" + latitude + ","+ longitude+")," + dis_in_meters+ "))";
+
+   
+    
+   layer.setOptions({
+                query: {
+                 select: 'ktv',
+                 from:  tableid,
+                 where: loc_query
+               }
+             });
+  
+}// end of changeLocation
+
+function changeRadius(meters)
+{
+ 
+  var mtr =  parseInt(meters); 
+
+  if (meters != "")
+ {
+   changeLocation(latitude,longitude,mtr);
+
+   circle.setRadius(mtr);
+  }
+}// end of changeradius
+
+
+function centerAddress() {
+  var address = txtAddress.value;
+geocoder.geocode( { 'address': address},
+         function(results, status) {
+
+   if (status == google.maps.GeocoderStatus.OK) {
+
+          latitude = results[0].geometry.location.lat();
+          longitude= results[0].geometry.location.lng();
+          changeLocation (latitude ,longitude,500);    // new added
+
+      
+           map.setCenter(results[0].geometry.location);
+           map.setZoom(15);
+           circle.setCenter(results[0].geometry.location);
+           changeRadius(500); 
+           contentString = "בחרת לחפש מסביב לכתובת - " + address;    
+           infowindow.setContent(contentString);
+           infowindow.setPosition(results[0].geometry.location);
+           infowindow.open(map);
+
+ //         
+ //       } 
+  } else { 
+    alert("Geocode was not successful for the following reason: " + status); 
+  }
+    });
+  
+  return false;
+
+}// end of centerAddress
+
+function centerMe(lat,lon,sug) {
+
+          if (sug == 1 )
+	   {
+		changeLocation (lat ,lon,my_distance);     
+	        contentString = "אתה כאן"  ;    
+	        
+           }
+	 else
+           {
+		changeLocation (lat ,lon,my_distance);     
+	        contentString = "הכי קרוב אלי "  ;   
+	   }
+
+          changeLocation (lat ,lon,my_distance);    // new added
+          var initialLocation = new google.maps.LatLng(lat,lon);
+ 
+           map.setCenter(initialLocation);
+ 	   map.setZoom(map.getZoom()-1);
+           map.setZoom(my_zoom);
+           circle.setCenter(initialLocation);
+           changeRadius(my_distance); 
+           infowindow.setContent(contentString);
+           infowindow.setPosition(initialLocation);
+           infowindow.open(map);
+
+
+}// end of centerMe
+
+</script>
+
+</head>
+<body onload="initialize();">
+<div id="wrapper">
+<div id="myform">
+<form onsubmit="return centerAddress();">
+<select onchange="changeRadius(this.value);">
+      <option value="500">0.5 km</option> 
+      <option value="1000">1 km</option> 
+      <option value="1500">1.5 km</option> 
+      <option value="2000">2 km</option>
+      <option value="3000">3 km</option>
+      <option value="5000">5 km</option>
+      <option value="10000">10 km</option> 
+      <option value="15000">15 km</option>
+      <option value="20000">20 km</option>
+      <option value="25000">25 km</option>
+      <option value="35000">35 km</option>
+
+  </select>
+
+<input type="text" id="txtAddress" size=12 onchange="centerAddress();" placeholder="כתובת"/>
+<input type="submit" id="btnSearch" value="GO"  />
+  
+</form>
+</div>
+<div id="map_canvas"></div>
+</div>
+</body>
+</html>

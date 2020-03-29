@@ -1,0 +1,180 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml:2:1-31:12
+MERGED from [pub.devrel:easypermissions:2.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\easypermissions-2.0.0.aar\1534d49f87af67e495e7295f0ea65521\AndroidManifest.xml:2:1-19:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\2f4225421f7244c1583b6990c2f38c4f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\327f3fd2cc91f723bd24349ae2b0be92\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\0a49098c68228447857991c178017611\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\057f9c298610838afe0990a5465be5fc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\f249d5470f068cd0f155869658200212\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\44f97798ee4ff947184550db14934ba1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\89cef5d02530a46dcde158b2e4b0de84\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\3d4f3f00831b6579c94f26b51282f6b3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\d05b5c27b902fc184c62589e24acbd42\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\be989b11927db351d0640d57a222a9f8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\a6eb0af312ac16bda8272856cd81bf0a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\168f40dcb358099a644e80433515ce76\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\087c991796a6411e7c2657083a94c742\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\18f3f29a62ef99ed1bc4deb1c0bbd1f6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\89c6383aa0151ba7a8acd4cc863204eb\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\9058f7f45ba4008fa910f1bd4b715e29\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\a4813365cdd94978fcc4ceb31c70fae5\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\fb188e5b9b55af5a33f6bd93211b6619\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\af6e1a6d7f69186b63c8d383a5000ec3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\d64b0d1ac5500e58617c49db883b43c9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\5de67c7f0a753e0fd36545a44dcf6b6d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\92e89447c2e753fb7abc08bf93492f76\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\198294c6fd0b9a11e1100e9398c5b8c2\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\aebbd8190bf1ed15a3e0021218772e3d\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\e7135da4825c1528ec0292e3cdb4e68d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\2ef0d359a795c41e6e7fd633c9c4b5a6\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml:2:1-31:12
+	package
+		ADDED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml:3:5-31
+		INJECTED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml:7:5-44
+INJECTED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml:7:5-44
+INJECTED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml:7:5-44
+MERGED from [pub.devrel:easypermissions:2.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\easypermissions-2.0.0.aar\1534d49f87af67e495e7295f0ea65521\AndroidManifest.xml:7:5-9:41
+MERGED from [pub.devrel:easypermissions:2.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\easypermissions-2.0.0.aar\1534d49f87af67e495e7295f0ea65521\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\2f4225421f7244c1583b6990c2f38c4f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\2f4225421f7244c1583b6990c2f38c4f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\327f3fd2cc91f723bd24349ae2b0be92\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\327f3fd2cc91f723bd24349ae2b0be92\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\0a49098c68228447857991c178017611\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\0a49098c68228447857991c178017611\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\057f9c298610838afe0990a5465be5fc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\057f9c298610838afe0990a5465be5fc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\f249d5470f068cd0f155869658200212\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\f249d5470f068cd0f155869658200212\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\44f97798ee4ff947184550db14934ba1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\44f97798ee4ff947184550db14934ba1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\89cef5d02530a46dcde158b2e4b0de84\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\89cef5d02530a46dcde158b2e4b0de84\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\3d4f3f00831b6579c94f26b51282f6b3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\3d4f3f00831b6579c94f26b51282f6b3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\d05b5c27b902fc184c62589e24acbd42\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\d05b5c27b902fc184c62589e24acbd42\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\be989b11927db351d0640d57a222a9f8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\be989b11927db351d0640d57a222a9f8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\a6eb0af312ac16bda8272856cd81bf0a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\a6eb0af312ac16bda8272856cd81bf0a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\168f40dcb358099a644e80433515ce76\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\168f40dcb358099a644e80433515ce76\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\087c991796a6411e7c2657083a94c742\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\087c991796a6411e7c2657083a94c742\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\18f3f29a62ef99ed1bc4deb1c0bbd1f6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\18f3f29a62ef99ed1bc4deb1c0bbd1f6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\89c6383aa0151ba7a8acd4cc863204eb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\89c6383aa0151ba7a8acd4cc863204eb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\9058f7f45ba4008fa910f1bd4b715e29\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\9058f7f45ba4008fa910f1bd4b715e29\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\a4813365cdd94978fcc4ceb31c70fae5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\a4813365cdd94978fcc4ceb31c70fae5\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\fb188e5b9b55af5a33f6bd93211b6619\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\fb188e5b9b55af5a33f6bd93211b6619\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\af6e1a6d7f69186b63c8d383a5000ec3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\af6e1a6d7f69186b63c8d383a5000ec3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\d64b0d1ac5500e58617c49db883b43c9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\d64b0d1ac5500e58617c49db883b43c9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\5de67c7f0a753e0fd36545a44dcf6b6d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\5de67c7f0a753e0fd36545a44dcf6b6d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\92e89447c2e753fb7abc08bf93492f76\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\92e89447c2e753fb7abc08bf93492f76\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\198294c6fd0b9a11e1100e9398c5b8c2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\198294c6fd0b9a11e1100e9398c5b8c2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\aebbd8190bf1ed15a3e0021218772e3d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\aebbd8190bf1ed15a3e0021218772e3d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\e7135da4825c1528ec0292e3cdb4e68d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\e7135da4825c1528ec0292e3cdb4e68d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\2ef0d359a795c41e6e7fd633c9c4b5a6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\2ef0d359a795c41e6e7fd633c9c4b5a6\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml:7:5-44
+INJECTED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml:7:5-44
+	android:targetSdkVersion
+		INJECTED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml:7:5-44
+		INJECTED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml:7:15-41
+		INJECTED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml:8:22-64
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml:10:5-78
+	android:name
+		ADDED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml:10:22-76
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml:11:22-76
+application
+ADDED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml:13:5-29:19
+MERGED from [pub.devrel:easypermissions:2.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\easypermissions-2.0.0.aar\1534d49f87af67e495e7295f0ea65521\AndroidManifest.xml:11:5-17:19
+MERGED from [pub.devrel:easypermissions:2.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\easypermissions-2.0.0.aar\1534d49f87af67e495e7295f0ea65521\AndroidManifest.xml:11:5-17:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\89c6383aa0151ba7a8acd4cc863204eb\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\89c6383aa0151ba7a8acd4cc863204eb\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\9058f7f45ba4008fa910f1bd4b715e29\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\9058f7f45ba4008fa910f1bd4b715e29\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\89c6383aa0151ba7a8acd4cc863204eb\AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml:15:9-41
+	android:icon
+		ADDED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml:14:9-43
+activity#com.webapps.cell.WebLauncherActivity
+ADDED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml:16:9-26:20
+	android:label
+		ADDED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml:18:13-45
+	android:uiOptions
+		ADDED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml:19:13-57
+	android:name
+		ADDED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml:17:13-48
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml:24:27-74
+activity#com.webapps.cell.WebMapActivity
+ADDED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml:28:9-77
+	android:name
+		ADDED from C:\Users\dell\Downloads\CellularTowersAround\app\src\main\AndroidManifest.xml:28:19-65
+activity#pub.devrel.easypermissions.AppSettingsDialogHolderActivity
+ADDED from [pub.devrel:easypermissions:2.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\easypermissions-2.0.0.aar\1534d49f87af67e495e7295f0ea65521\AndroidManifest.xml:12:9-16:66
+	android:label
+		ADDED from [pub.devrel:easypermissions:2.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\easypermissions-2.0.0.aar\1534d49f87af67e495e7295f0ea65521\AndroidManifest.xml:15:13-29
+	android:exported
+		ADDED from [pub.devrel:easypermissions:2.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\easypermissions-2.0.0.aar\1534d49f87af67e495e7295f0ea65521\AndroidManifest.xml:14:13-37
+	android:theme
+		ADDED from [pub.devrel:easypermissions:2.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\easypermissions-2.0.0.aar\1534d49f87af67e495e7295f0ea65521\AndroidManifest.xml:16:13-63
+	android:name
+		ADDED from [pub.devrel:easypermissions:2.0.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\easypermissions-2.0.0.aar\1534d49f87af67e495e7295f0ea65521\AndroidManifest.xml:13:13-86

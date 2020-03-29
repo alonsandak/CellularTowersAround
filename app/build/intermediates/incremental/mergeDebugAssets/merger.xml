@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Users\dell\Downloads\CellularTowersAround\app\src\main\assets"><file name="cellulartower.html" path="C:\Users\dell\Downloads\CellularTowersAround\app\src\main\assets\cellulartower.html"/></source><source path="C:\Users\dell\Downloads\CellularTowersAround\app\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="C:\Users\dell\Downloads\CellularTowersAround\app\src\debug\assets"/></dataSet></merger>
