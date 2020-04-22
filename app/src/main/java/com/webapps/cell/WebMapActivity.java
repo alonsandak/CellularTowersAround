@@ -221,9 +221,10 @@ public class WebMapActivity extends Activity implements LocationListener, EasyPe
 
 
         int duration = Toast.LENGTH_LONG;
-        Toast toast = Toast.makeText(con, "Please Wait ", duration);
+        Toast toast = Toast.makeText(con, "Loading Map  ", duration);
         toast.show();
-
+        toast = Toast.makeText(con, "Please Wait ...", duration);
+        toast.show();
 
 
     }
@@ -277,7 +278,7 @@ public class WebMapActivity extends Activity implements LocationListener, EasyPe
                 //                                          int[] grantResults)
                 // to handle the case where the user grants the permission. See the documentation
                 // for ActivityCompat#requestPermissions for more details.
-                Toast.makeText(this, "Iמ A Minute", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "In A Minute", Toast.LENGTH_SHORT).show();
                 //return;
             }
 
@@ -355,8 +356,8 @@ public void  sendmail (String address) {
             }
         @JavascriptInterface
         public double getLatitude() {
-
-            return mostRecentLocation.getLatitude();
+            getLocation();
+           return mostRecentLocation.getLatitude();
 
 
         }
